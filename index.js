@@ -43,7 +43,7 @@ async function run(){//def main function
                     if(test==1){
                         
                         const channel = client.channels.cache.get(meta.id_salon);
-                        let date=data.data[a].created_at.toString("MMMM dS, yyyy");
+                        let date=convert(data.data[a].created_at);
                         let name=data.data[a].repo.name.split("/");
                         var message="Hello @everyone here are the news:\n"+data.data[a].actor.login+
                                     " update his/her projet named: "+name[1]+"\nupdate at: "+date+"\n Url: https://github.com/"+data.data[a].repo.name;
@@ -54,7 +54,7 @@ async function run(){//def main function
                     else if(test==2){
                         
                         const channel = client.channels.cache.get(meta.id_salon);
-                        let date=data.data[a].created_at.toString("d-MMM-yyyy");
+                        let date=convert(data.data[a].created_at);
                         let name=data.data[a].repo.name.split("/");
                         var message="Hello @everyone here are the news:\n"+data.data[a].actor.login+
                                     " create one projet named: "+name[1]+"\ncreate at: "+date+"\n Url: https://github.com/"+data.data[a].repo.name;
