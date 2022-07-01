@@ -1,7 +1,6 @@
 {
-    "prefix": "-",
-    "bot_token": "OTkxMzk1Nzc4MDAwMDY4NjI4.G4_wOH.dF_BKvStv1n3JGtkKgLWs-bxi8oVgT78lWWenU",
-    "user_token" :"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",
-    "user_name" : "electrotechtest",
-    "id_salon" :"992380241479729243"
+    "bot_token": "<your bot token>",
+    "user_token" :"<your user token in github",
+    "user_name" : "<your username>",
+    "id_salon" :"<your salon id>"
 }
