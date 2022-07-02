@@ -48,7 +48,7 @@ async function run(){//def main function
                         var message="Hello @everyone here are the news:\n"+data.data[a].actor.login+
                                     " update his/her projet named: "+name[1]+"\nupdate at: "+date+"\n Url: https://github.com/"+data.data[a].repo.name;
                         channel.send(message);
-                        //send a message in the salon
+                        //send a message in the channel
                         
                     }
                     else if(test==2){
@@ -59,7 +59,7 @@ async function run(){//def main function
                         var message="Hello @everyone here are the news:\n"+data.data[a].actor.login+
                                     " create one projet named: "+name[1]+"\ncreate at: "+date+"\n Url: https://github.com/"+data.data[a].repo.name;
                         channel.send(message);
-                        //send a message in the salon
+                        //send a message in the channel
                     }
                 }
            }
