@@ -108,4 +108,4 @@ client.on("ready", async () => {
 });//say if the bot is ready
 
 run();
-setInterval(run,1000000);
+setInterval(run,600000);
